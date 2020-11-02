@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding:0;
+  border: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+nav {
+  background: #00aeff;;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 2px;
+}
+ul {
+  list-style: none;
+}
+
+nav img {
+  max-width: 10em;
+  color: #fff;
+}
+
+
+i {
+  color: white;
+  border-radius: 30px;
+  font-size: 4em;
+}
