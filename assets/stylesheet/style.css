@@ -8,24 +8,58 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.heading {
+  color: #fff;
+  background-color: grey;
+  background: url(../images/v7-homepage1.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+}
+
+.header-main-heading {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  padding-top: 100px;
+}
+
+.header-sub-heading {
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 100px;
+}
+
 nav {
   background: #00aeff;;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 2px;
+  grid-gap: 5px;
 }
+
 ul {
   list-style: none;
 }
 
 nav img {
-  max-width: 10em;
-  color: #fff;
+  max-width: 7em;
 }
-
 
 i {
   color: white;
   border-radius: 30px;
-  font-size: 4em;
+  font-size: 3em;
+}
+ .row {
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-gap: 2rem;
+ }
+
+.top-deal-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 2rem;
 }
