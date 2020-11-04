@@ -1,7 +1,7 @@
 :root {
   --blue:#00aeff; /*This is just some simple css variables*/
-  --black: #2b2828;
-  --grey: #4f4f4f
+  --black: #423d3d;
+  --grey: #978181;
 }
 
 html {
@@ -12,7 +12,6 @@ html {
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 14px;
   color: var(--black);
-  ;
 }
 
 /*
@@ -31,13 +30,17 @@ html {
 body {
   font-family: 'Lato', sans-serif;
   text-align: center;
-    line-height: 1.4;
-    /* font-size: 14px; */
+  line-height: 1.4;
+  max-width: 100%;
+}
+
+.section-headings h2 {
+  padding-top: 0% 4%;
 }
 
 .heading {
   color: #fff;
-  background-color: grey;
+  background-color: var(--grey);
   background: url(../images/v7-homepage1.jpg);
   background-size: cover;
   width: 100%;
@@ -79,24 +82,11 @@ i {
   border-radius: 30px;
   font-size: 3em;
 }
- .row {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 1rem;
-  padding: 0 20%;
-}
-
- .box {
-  margin-top: 20px;
-  border: 2px solid #00aeff;
-  border-radius: 4px;
-  padding: 10px;
- }
-
+ 
  .heading-form {
-   position: relative;
-   top: -4em;
-   padding: 0 20%;
+   padding: 0 20% 5%;
+   margin-top: -50px
+
  }
 
 .hotel-search-form {
@@ -105,53 +95,100 @@ i {
 }
 
 .hotel-search-form .input {
-  border: 1px solid #000000;
-  padding: 15px 15px 15px 40px;
+  border: 1px solid var(--grey);
+  padding: 10px 10px 10px 40px;
   margin: 29px 0px;
-  border-radius: 10px;
-  width: 28%;
+  border-radius: 5px;
+  width: 35%;
 }
 
 .hotel-search-form-btn {
   background: var(--blue);
+  padding: 10px 40px;
+  border-radius: 5px;
+  width: 40%;
+  color: #fff;
 }
  
 .section-headings h2 {
   font-size: 24px;
-  color: var(--grey);
+  color: var(--black);
   font-weight: 700;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07)
 }
 
-.section-headings p {
+.section-destination p {
 font-size: 18px;
 font-weight: 500;
-color: var(--grey);
+color: var(--black);
 }
 
+.row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1rem;
+  padding: 0 20%;
+}
 
+ .box {
+  margin-top: 20px;
+  border: 1px solid var(--blue);
+  border-radius: 4px;
+  padding: 10px;
+}
+ .box h3 {
+  color: var(--blue);
+}
+
+.box p {
+  color: var(--grey);
+  font-weight: 300;
+}
 
 .top-deal-grid {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 0.251fr);
   grid-gap: 2rem;
+  text-align: left;
+  padding-left: 336px;
+  width: 100%;
 }
-/* .top-deals-border {
-  margin-top: 20px;
-    border: 2px solid var(--blue);
-    border-radius: 4px;
-    padding: 10px;
-} */
 
-.location-details {
-  border: 1px groove var(--grey);
-  border-top: 0;
+.top-deal-each img {
+  width: 100%;
+  /* max-width: 100% */
 }
+
+.top-deal-location-details h4 {
+  color: var(--blue);
+  padding: 20px 10px 0px 15px;
+}
+
+.top-deal-location-details p {
+  color: var(--grey);
+  padding: 5px 0px 15px 15px;
+}
+
+.top-deal-location-details {
+  color: var(--grey);
+  border: 1px solid var(--black);
+  border-top: 0;
+  border-radius: 5px;
+  margin-top: -8px;
+}
+
 
 .cities-grid {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 0.251fr);
+  grid-gap: 2rem;
+  text-align: left;
+  padding-left: 336px;
+  width: 100%;
+}
+
+.cities-grid img {
+  width: 100%;
 }
 
 .state-grid {
