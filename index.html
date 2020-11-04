@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/stylesheet/style.css">
+  <link rel="stylesheet" href="./assets/stylesheet/reset.css">
   <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css ">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head> 
 <body>
   <header>
@@ -28,9 +29,8 @@
     <section class="heading-form">
       <form class="hotel-search-form" action="#">
         <input class="input" type="text" placeholder="Search for a city or particular hotel">
-        <input class="input" type="calendar" placeholder="tue,03 Nov -wed,04 Nov">
-        <input class="input" type="text" placeholder="Check In - Check Out">
-        <a class="btn" href="#" onclick="">Find Hotels</a>
+        <input class="input" type="" placeholder="">
+        <a class="hotel-search-form-btn" href="#" onclick="">Find Hotels</a>
       </form>
     </section>
 
@@ -44,7 +44,7 @@
           <div class="box first-box">
             <a href="https://hotels.ng/hotels-in-rivers/port-harcourt">
               <div class="suggested_city">
-                <h2 class="city-name">Port Harcourt </h2>
+                <h3 class="city-name">Port Harcourt </h3>
                 <p>375 hotels</p>
               </div>
             </a>
@@ -53,7 +53,7 @@
         <div class="box second-box">
           <a href="https://hotels.ng/hotels-in-rivers/port-harcourt">
             <div class="suggested_city">
-              <h2 class="city-name">Ibadan </h2>
+              <h3 class="city-name">Ibadan </h3>
               <p>438 hotels</p>
             </div>
           </a>
@@ -62,7 +62,7 @@
         <div class="box third-box">
           <a href="https://hotels.ng/hotels-in-rivers/port-harcourt">
             <div class="suggested_city">
-              <h2 class="city-name">Calabar</h2>
+              <h3 class="city-name">Calabar</h3>
               <p>282 hotels</p>
             </div>
           </a>
@@ -71,7 +71,7 @@
         <div class="box fourth-box">
           <a href="https://hotels.ng/hotels-in-rivers/port-harcourt">
             <div class="suggested_city">
-              <h2 class="city-name">Kaduna</h2>
+              <h3 class="city-name">Kaduna</h3>
               <p>340 hotels</p>
             </div>
           </a>
@@ -80,7 +80,7 @@
         <div class="box fifth-box">
           <a href="https://hotels.ng/hotels-in-rivers/port-harcourt">
             <div class="suggested_city">
-              <h2 class="city-name">Owerri</h2>
+              <h3 class="city-name">Owerri</h3>
               <p>176 hotels</p>
             </div>
           </a>
@@ -90,7 +90,7 @@
         <div class="box sixth-box">
           <a href="https://hotels.ng/hotels-in-rivers/port-harcourt">
             <div class="suggested_city">
-              <h2 class="city-name">Ikeja</h2>
+              <h3 class="city-name">Ikeja</h3>
               <p>289 hotels</p>
             </div>
           </a>
@@ -100,7 +100,7 @@
     <!-- Suggested Destination Ends -->
 
     <!-- Todays Top Deals Start -->
-    <section class="top-deal-section">
+    <section class="top-deal-section section-headings">
       <h2>Today's Top Deals</h2>
       <p>A quick view of hotels offering the best deals</p>
 
@@ -108,13 +108,13 @@
         <div class="top-deals-display first-display">
         <div class="top-deals-border">
           <div class="top-deal-home">
-            <a class="name-link" href="https://hotels.ng/hotel/26241-ibis-lagos-airport-lagos?utm_source=home&amp;utm_campaign=top-deals&amp;utm_medium=on-site&amp;utm_content=ibis-lagos-airport-lagos">
+            <a class="name-link" href="#">
               <img alt="Ibis Lagos Airport" src="./assets/images/ibis.jpg">
             </a>
 
-            <div class="rv-card-details homepage">
-              <h4 class="text-link"><a class="name-link" href="https://hotels.ng/hotel/26241-ibis-lagos-airport-lagos?utm_source=home&amp;utm_campaign=top-deals&amp;utm_medium=on-site&amp;utm_content=ibis-lagos-airport-lagos">Ibis Lagos Airport</a></h4>
-              <p class="para-link"><a href="https://hotels.ng/hotels-in-lagos/ajao-estate">Ajao Estate</a></p>
+            <div class="location-details homepage">
+              <h4 class="text-link"><a class="name-link" href="#">Ibis Lagos Airport</a></h4>
+              <p class="para-link"><a href="#">Ajao Estate</a></p>
             </div>
 
             <div class="discount-placement">
@@ -132,7 +132,7 @@
               <img alt="Grand Ibro Hotel" src="./assets/images/grand-ibro-hotel.jpg">
             </a>
 
-            <div class="rv-card-details homepage">
+            <div class="location-details homepage">
               <h4 class="text-link"><a class="name-link" href="#">Grand Ibro Hotel</a></h4>
               <p class="para-link"><a href="#">Wuse, Abuja</a></p>
             </div>
@@ -152,7 +152,7 @@
               <img alt="Transcorp Hotels" src="./assets/images/transcorp-metropolitan-hotel-conferencing-cross-river.jpg">
             </a>
 
-            <div class="rv-card-details homepage">
+            <div class="location-details homepage">
               <h4 class="text-link"><a class="name-link" href="#">Transcorp Hotels</a></h4>
               <p class="para-link"><a href="#">Cross River, Calabar</a></p>
             </div>
@@ -172,7 +172,7 @@
               <img alt="Dmatel Hotel And Resort PH" src="./assets/images/dmatel-hotel-and-resorts-rivers.jpg">
             </a>
 
-            <div class="rv-card-details homepage">
+            <div class="location-details homepage">
               <h4 class="text-link"><a class="name-link" href="#">Dmatel Hotel And Resort PH</a></h4>
               <p class="para-link"><a href="#">Port Harcourt, Rivers</a></p>
             </div>
@@ -192,7 +192,7 @@
               <img alt="Imo Concorde Hotel" src="./assets/images/imo-concorde-hotel.jpg">
             </a>
 
-            <div class="rv-card-details homepage">
+            <div class="location-details homepage">
               <h4 class="text-link"><a class="name-link" href="#">Imo Concorde Hotel</a></h4>
               <p class="para-link"><a href="#">Owerri, Imo</a></p>
             </div>
@@ -212,7 +212,7 @@
               <img alt="Ibom Hotel and Golf Resort" src="./assets/images/ibom-hotel-and-golf-resort.jpg">
             </a>
 
-            <div class="rv-card-details homepage">
+            <div class="location-details homepage">
               <h4 class="text-link"><a class="name-link" href="#">Ibom Hotel and Golf Resort</a></h4>
               <p class="para-link"><a href="#">Akwa Ibom, Uyo</a></p>
             </div>
@@ -225,14 +225,238 @@
         </div>
       </div>
       </div>
-
-      
-
     </section>
-
-
      <!-- Todays Top Deals Ends -->
 
+     <!-- Popular cities with Hotels.ng travellers Start -->
+    <section class="top-deal-section section-headings">
+      <h2>Popular cities with Hotels.ng travellers</h2>
+      <p>See the top destinations people are traveling to</p>
+
+      <div class="cities-grid">
+        <div class="cities">
+          <a href="#" class="cities_image">
+            <img src="./assets/images/lagos_city1.jpg" alt="Lagos Hotels">
+            <div class="city-name">
+              <h3 class="">Lagos </h3>
+              <p>3,294 hotels</p>
+            </div>
+          </a>
+          <div class="city-cta"><a href="#"></a>
+            <a href="#" class="cta-button">Book Hotels in Lagos</a>
+          </div>
+        </div>
+
+        <div class="cities">
+          <a href="#" class="cities_image">
+            <img src="./assets/images/abuja_city1.jpg" alt="Abuja Hotels">
+            <div class="city-name">
+              <h3 class="">Abuja</h3>
+              <p>1,096 hotels</p>
+            </div>
+          </a>
+          <div class="city-cta"><a href="#"></a>
+            <a href="#" class="cta-button">Book Hotels in Abuja</a>
+          </div>
+        </div>
+
+        <div class="cities">
+          <a href="#" class="cities_image">
+            <img src="./assets/images/crossriver_city1.jpg" alt="Calabar Hotels">
+            <div class="city-name">
+              <h3 class="">Calabar</h3>
+              <p>282 hotels</p>
+            </div>
+          </a>
+          <div class="city-cta"><a href="#"></a>
+            <a href="#" class="cta-button">Book Hotels in Calabar</a>
+          </div>
+        </div>
+
+        <div class="cities">
+          <a href="#" class="cities_image">
+            <img src="./assets/images/port-harcourt_city1.jpg" alt="Port Harcourt Hotels">
+            <div class="city-name">
+              <h3 class="">Port Harcourt </h3>
+              <p>375 hotels</p>
+            </div>
+          </a>
+          <div class="city-cta"><a href="#"></a>
+            <a href="#" class="cta-button">Book Hotels in Port Harcourt</a>
+          </div>
+        </div>
+
+        <div class="cities">
+          <a href="#" class="cities_image">
+            <img src="./assets/images/owerri_city1.jpg" alt="Owerri Hotels">
+            <div class="city-name">
+              <h3 class="">Owerri</h3>
+              <p>176 hotels</p>
+            </div>
+          </a>
+          <div class="city-cta"><a href="#"></a>
+            <a href="#" class="cta-button">Book Hotels in Owerri</a>
+          </div>
+        </div>
+
+        <div class="cities">
+          <a href="#" class="cities_image">
+            <img src="./assets/images/uyo_city1.jpg" alt="Uyo Hotels">
+            <div class="city-name">
+              <h3 class="">Uyo</h3>
+              <p>195 hotels</p>
+            </div>
+          </a>
+          <div class="city-cta"><a href="#"></a>
+            <a href="#" class="cta-button">Book Hotels in Uyo</a>
+          </div>
+        </div>
+      </div>
+    </section>     
+    <!-- Popular cities with Hotels.ng travellers End -->
+
+
+    <!-- Select the City to Book Hotels in Start -->
+
+    <section class="select-city section-headings">
+      <h2> Select the City to Book Hotels in</h2>
+      <p>13,036 hotels in 1,810 cities / towns in Nigeria</p>
+
+      <div class="state-grid">
+          <div>
+              <a href="https://hotels.ng/hotels-in-abia">Abia</a><br> 301 hotels in Abia with  over 155 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-abuja">Abuja</a><br> 1,096 hotels in Abuja with  over 2,202 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-abuja-federal-capital-territory">Abuja Federal Capital Territory</a><br> 15 hotels in Abuja Federal Capital Territory with  no reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-adamawa">Adamawa</a><br> 70 hotels in Adamawa with  over 45 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-akwaibom">Akwa Ibom</a><br> 474 hotels in Akwa Ibom with  over 286 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-anambra">Anambra</a><br> 297 hotels in Anambra with  over 117 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-bauchi">Bauchi</a><br> 51 hotels in Bauchi with  over 51 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-bayelsa">Bayelsa</a><br> 185 hotels in Bayelsa with  over 48 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-benue">Benue</a><br> 297 hotels in Benue with  over 32 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-borno">Borno</a><br> 25 hotels in Borno with  over 6 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-crossriver">Cross River</a><br> 372 hotels in Cross River with  over 325 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-delta">Delta</a><br> 639 hotels in Delta with  over 407 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-ebonyi">Ebonyi</a><br> 101 hotels in Ebonyi with  over 18 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-edo">Edo</a><br> 386 hotels in Edo with  over 450 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-ekiti">Ekiti</a><br> 237 hotels in Ekiti with  over 194 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-enugu">Enugu</a><br> 352 hotels in Enugu with  over 420 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-fct">FCT</a><br> 11 hotels in FCT with  over 3 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-gombe">Gombe</a><br> 44 hotels in Gombe with  over 24 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-imo">Imo</a><br> 323 hotels in Imo with  over 289 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-jigawa">Jigawa</a><br> 33 hotels in Jigawa with  over 4 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-kaduna">Kaduna</a><br> 340 hotels in Kaduna with  over 244 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-kano">Kano</a><br> 138 hotels in Kano with  over 108 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-katsina">Katsina</a><br> 32 hotels in Katsina with  over 23 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-kebbi">Kebbi</a><br> 27 hotels in Kebbi with  over 9 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-kogi">Kogi</a><br> 266 hotels in Kogi with  over 45 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-kwara">Kwara</a><br> 334 hotels in Kwara with  over 286 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-lagos">Lagos</a><br> 3,294 hotels in Lagos with  over 7,893 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-nasarawa">Nasarawa</a><br> 244 hotels in Nasarawa with  over 56 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-niger">Niger</a><br> 116 hotels in Niger with  over 55 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-ogun">Ogun</a><br> 737 hotels in Ogun with  over 459 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-ondo">Ondo</a><br> 259 hotels in Ondo with  over 181 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-osun">Osun</a><br> 325 hotels in Osun with  over 243 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-oyo">Oyo</a><br> 648 hotels in Oyo with  over 597 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-plateau">Plateau</a><br> 284 hotels in Plateau with  over 130 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-rivers">Rivers</a><br> 513 hotels in Rivers with  over 533 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-sokoto">Sokoto</a><br> 20 hotels in Sokoto with  over 48 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-taraba">Taraba</a><br> 99 hotels in Taraba with  over 6 reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-yobe">Yobe</a><br> 11 hotels in Yobe with  no reviews
+          </div>
+          <div>
+              <a href="https://hotels.ng/hotels-in-zamfara">Zamfara</a><br> 28 hotels in Zamfara with  over 9 reviews
+          </div>
+      </div>      
+    </section>
+    <!-- Select the City to Book Hotels in End -->
+
+
+    <!-- Special Hotel Deals and Offers Start -->
+    <section class="special-deal-section section-headings">
+      <h2>Special Hotel Deals and Offers</h2>
+      <p>Enter your email address to receive secret hotel deals</p>
+
+      <form class="form-subscribe">
+        <input type="email" placeholder="Enter your email address" data-ga-action="click" required>
+
+        <button data-ga-action="button-click" type="button" class="special-deal-section-btn">Subscribe</button>
+    </form>
+    </section>
+    <!-- Special Hotel Deals and Offers Start -->
 
      
   </header>
