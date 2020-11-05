@@ -85,11 +85,13 @@ i {
  
  .heading-form {
    padding: 0 20% 1%;
-   margin-top: -65px
+   margin-top: -65px;
+   position: sticky;
+   top: 0;
  }
 
  .heading-text {
-  padding: 5em 0em 4em 0em;
+  padding: 4em 0em 1em 0em;
 }
 
 .hotel-search-form {
@@ -196,15 +198,14 @@ color: var(--black);
 
 .state-grid {
   display: grid;
-  /* grid-template-columns: repeat(4,1fr); */
   grid-template-columns: repeat(4, 0.251fr);
-  padding-left: 320px;
+  padding: 0px 0px 5% 18%;
   width: 82%;
   grid-gap: 1rem;
   text-align: left;
 }
 
-.form-subscribe {
+.special-deal-section {
   background: #fafafa;
 }
 
@@ -215,10 +216,63 @@ color: var(--black);
   border-radius: 5px;
   width: 35%;
 }
-.form-subscribe-btn{
+.form-subscribe-btn, .btn{
   background: var(--blue);
   padding: 10px 40px;
   border-radius: 5px;
   width: 40%;
   color: #fff;
+}
+
+.featured-section {
+  padding: 0% 20%;
+}
+
+.featured-header {
+  margin-bottom: 7%;
+}
+
+.featured-flex {
+  margin-right: 5px;
+}
+
+.featured-flex ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.featured-flex li {
+  margin-right: 10%;
+}
+
+.featured-flex ul :nth-child(4) {
+  margin-right: 0;
+}
+
+.more-booking-section p {
+  padding-bottom: 2%;
+}
+
+.get-app-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10%;
+  background: #EFF8FB;
+}
+
+/* .get-app-details {
+
+} */
+
+.get-app-details h2 {
+  color: var(--blue);
+  font-size: 50px;
+}
+
+.get-app-details h3 {
+  font-size: 30px;
+  font-weight: 800;
 }
