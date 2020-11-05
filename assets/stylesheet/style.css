@@ -69,16 +69,17 @@ nav {
   grid-gap: 5px;
 }
 
-ul {
+.first-section ul {
   list-style: none;
 }
 
-nav img {
+.first-section-img {
   max-width: 7em;
 }
 
-i {
-  color: white;
+
+.first-section i {
+  color: green;
   border-radius: 30px;
   font-size: 3em;
 }
@@ -199,7 +200,7 @@ color: var(--black);
 .state-grid {
   display: grid;
   grid-template-columns: repeat(4, 0.251fr);
-  padding: 0px 0px 5% 18%;
+  padding: 0px 0px 5% 23%;
   width: 82%;
   grid-gap: 1rem;
   text-align: left;
@@ -245,6 +246,7 @@ color: var(--black);
 
 .featured-flex li {
   margin-right: 10%;
+  list-style: none;
 }
 
 .featured-flex ul :nth-child(4) {
@@ -263,16 +265,54 @@ color: var(--black);
   background: #EFF8FB;
 }
 
-/* .get-app-details {
-
-} */
+.get-app-details {
+  text-align: left;
+  padding-left: 5%;
+}
 
 .get-app-details h2 {
   color: var(--blue);
   font-size: 50px;
+  margin: 20px 0px 10px;
 }
 
 .get-app-details h3 {
   font-size: 30px;
   font-weight: 800;
+  margin: 0px 0px 10px;
+}
+
+.unlock-deal {
+  display: flex;
+  background-color: blue;
+}
+
+.icon-unlock i {
+  background: #fff;
+  color: var(--blue);
+  font-size: 3em;
+  padding: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.unlock-deal-column-first-text {
+
+}
+
+.unlock-deal-column-first-text h3 {
+  
+}
+
+.unlock-deal-column-first-text p {
+  
+}
+
+.unlock-deal-column-btn {
+  background: var(--blue);
+  /* padding: 10px 40px; */
+  border-radius: 5px;
+  color: #fff;
 }
