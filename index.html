@@ -458,10 +458,9 @@
       </div>
     </Section>
 
-    <section>
+    <section class="unlock-deal-section">
       <div class="unlock-deal">
-        <div class="padding">
-          <div class="column-first flex">
+        <div class="column-first flex">
           <div class="icon-unlock">
             <i class="fas fa-lock"></i>
           </div>
@@ -471,9 +470,9 @@
           </div>
         </div>
         <div class="column-second flex">
-          <form>
-            <input type="emmail" placeholder="Enter your email address">
-            <a class="unlock-deal-column-btn" href="#">unlock</a>
+          <form class="column-form">
+            <input type="email" class="" name="email_subscribe" id="email_subscribe_footer" placeholder="Enter your email address" aria-label="Email Address">
+            <input type="button" class="" data-ga-label="email-form" data-ga-category="Listing-Page-Interaction" data-ga-action="button-click" onclick="subscribe(this, 'Hotel Listing', '_footer');" value="Unlock">
           </form>
         </div>
         </div>
@@ -485,7 +484,7 @@
     <div class="hidden-xs">
       <div class="container">
           <div class="top-footer">
-              <div class="company">
+              <div class="company same">
                   <p class="headers">Company</p>
                   <p><a target="_blank" href="https://hotels.ng/visa">Visa</a></p>
                   <p><a target="_blank" href="https://blog.hotels.ng">Blog</a></p>
@@ -497,10 +496,10 @@
                   <p><a href="https://hotels.ng/how-it-works">How It Works</a></p>
               </div>
 
-              <div class="community">
+              <div class="community same">
                   <p class="headers">Community</p>
-                  <p><a target="_blank" href="https://www.twitter.com/hotelsng">Twitter</a></p>
-                  <p><a target="_blank" href="https://www.facebook.com/hotelsng">Facebook</a></p>
+                  <p><a target="_blank" href="">Twitter</a></p>
+                  <p><a target="_blank" href="">Facebook</a></p>
                   <p><a target="_blank" href="https://instagram.com/hotelsng">Instagram</a></p>
                   <!-- <p><a target="_blank" href="https://www.google.com/+hotelsng">Google</a></p> -->
                   <!-- <p><a target="_blank" href="https://pinterest.com/hotelsng">Pinterest</a></p> -->
@@ -521,7 +520,7 @@
                   <p><a target="_blank" href="http://hotel.africa">Hotels in Africa</a></p> -->
               </div>
 
-              <div class="key-cities">
+              <div class="key-cities same">
                   <p class="headers">Top Cities</p>
                   <p><a href="https://hotels.ng/hotels-in-lagos" target="_blank">Hotels in Lagos</a></p>
                   <p><a href="https://hotels.ng/hotels-in-cross-river/calabar" target="_blank">Hotels in Calabar</a></p>
@@ -534,7 +533,7 @@
                   <p><a href="https://hotels.ng/hotels-in-plateau/jos" target="_blank">Hotels in Jos</a></p>
               </div>
 
-              <div class="key-attractions">
+              <div class="key-attractions same">
                   <p class="headers">Top Destination</p>
                   <p><a target="_blank" href="https://hotels.ng/places/abuja/"> Abuja</a></p>
                   <p><a target="_blank" href="https://hotels.ng/places/calabar/"> Calabar</a></p>
@@ -542,7 +541,7 @@
                   <p><a target="_blank" href="https://hotels.ng/places/enugu/"> Enugu</a></p>
               </div>
 
-              <div class="key-hotels">
+              <div class="key-hotels same">
                   <p class="headers">Top Hotels</p>
                   <p><a href="https://hotels.ng/hotel/52497-hotel-ibis-lagos-ikeja-lagos">Hotel Ibis Lagos Ikeja</a></p>
                   <p><a href="https://hotels.ng/hotel/26241-ibis-lagos-airport-lagos">Ibis Lagos Airport</a></p>
@@ -555,11 +554,6 @@
                   <p><a href="https://hotels.ng/hotel/89877-jeromes-garden-and-suites-lagos">Jeromes Garden and Suites</a></p>
                   <p><a href="https://hotels.ng/hotel/65735-limeridge-hotel-lagos">Limeridge Hotel</a></p>
               </div>
-
-              <!--<div class="footer-column">
-                  <p class="headers">City Guides</p>
-                          <p><a href="http://hotels.ng/guides/hotels-in-lagos/" target="_blank">Lagos</a></p>
-              </div>-->
           </div>
 
           <div class="sub-footer text-left">
