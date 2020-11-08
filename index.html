@@ -10,17 +10,61 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head> 
 <body>
-  <header>
-    <Section class="first-section">
-      <nav>
-        <img class="first-section-img" src="./assets/images/logo1.png" alt="">
-        <ul>
-          <li><i class="fab fa-whatsapp"></i></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </nav>
+
+  <header class="header">
+    <Section class="header-container">
+      <div class="header-navbar">
+          <div class="header-logo"><a href="#"><img src="./assets/images/logo1.png" alt=""></a></div>
+          <nav class="header-navs-container">
+          <ul class="header-ul">
+            <li class="header-navs whatsapp-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="25px" height="40px" viewBox="0 0 23 23" enable-background="new 0 0 23 23" xml:space="preserve">  <image id="image0" width="23" height="23" x="0" y="0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAMAAADX9CSSAAAABGdBTUEAALGPC/xhBQAAACBjSFJN AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAADAFBMVEUAAADX19fd3d3i4uLj 4+Pe3t7b29vU1NTb29vk5eTy7/Lk5OTZ2dnV1tXf4N/g4eDW1tbT09Pk5eTp6Ong4ODk5OTo6Ojc 3dzg4ODV1dXZ2dnh4eHl5uXY2Njx7vDd3d3a2trb29vj4+PY2Nje3t7f39/u6+3x7fDT09Pf4N/i 4uLW19bi4uLb3Nvd3d3h4eHZ2dng3+DV1dXg4ODv7e/e3t7a2trn5+ff39/b29va2tre397p6Onf 4N/T09Pd3t3b29vb29vZ2dnb29vW1tb/+////////f/18fT29Pby/fPV89nM8NDW9Nrv+/D7+PvN 8NGC24tb0mdLzllFy1NZ0WZ72YTF7cqN3pY7yUtS0F9U0GFNzlo/yk05yEh82ob3/Pd114EuxT40 x0RSz2BTz2BPzl0yxkJl0nKQ3pkowzlByVCR35pPzV1PzV5PzF1+2YjV8tkzw0Qvw0CH3JBj0XA5 xUlNy1tKy1gvwkDB7MaB2IsowDo7xEvX8tq868FIyFdJyVhLyVlu1Hr28fX/+P/5/vlUy2I1wkY4 wkg0wkRExlRGxlVGx1U8xE3q+uz//v/f9eI+w1A7wksovDud4KX1/PZLx1swv0JDxVRDxFNCxFM0 wEbQ8dQzv0U8wk3u+e+K25UYty06wUspvD04wUpAw1E+wk8rvj7D7cff9uE/wVEfuDNhzW4Ytiwc tzJu0no5wEsguDU8wU0tvEDN7tH89fz8//w6v0wXtS181Ymo4685v0uh4anc89921IExvUQquT// +v8Usys3vkszvUdy0n/9//wPsCdsz3ra8t0wu0U1vUkxu0YTsSpCwlWr5LOE15AVsi0VsS0uuUQy u0ccszN304SF2ZBfym4Xsi8Bqxt/1ov08PP6/vtCwVUOricUry0gtDguuUMsuEEfszcKrCNlzHP/ /P+v5bcApxMuuENXyGgEqh4dsTUdsTQDqB3A6cae36fd9eCB1I1EwFcltTt80ojU8djv8O/l9+fn +Ony8vLx8fH38fb48vdEB2naAAAARXRSTlMAO3qmsIFIBkez9r5WCKS6FhrT5SrY76LENFOuzw7y imlus2M8CvD7OZW4KTigjM8BxBEe+46A0JtQNYnXkCdjeSxMXC+ILkrgAAAAAWJLR0RGF7r57QAA AAd0SU1FB+QJCA4AAIM7lKAAAAHuSURBVCjPY2CAAkYmZhZmVjZ2BhTAwcnl6ubm5u7BzYMkysvn 6ebm5e3j6+fm5s8vABMWFHJzCwgMCg4JDg0Ld3MTFoGqFnVzi4iMDI6KjoqJjYtPcBOD6BB3c0tM So5MiU5NTUlNS89IcJMACUt6umVmZedkhuTm5eXm5+YlFbj5SwHFpd0Ki4pL3NxKy8rBoKKyyk2G l0FWzq26prbOza2+qKERBJoqm91a2Bg4WtvaOzoL3dzCu7p7ent7enr6evrd5RkUJkycNHnKVLdp 02fMBIJZs2dPmhPgJs2g6DZ3zuR58xe4LVw0f+biJUtnL1u+YqWbEoOy+6qlc1avWevmVr1u/eIN Gzdt3rhlqxszg8q27dOXbN6xc5eb2+49e9327T9wcLXfIVYGVTW3XYePHDm689h2NxA4vuXESTd1 DQYGTfdTpw+eOXP23PkLIJmLl3ZuddMC+kvbw+3k5dNXTl+9dm719Rs3b92+43ZXBxQh2+7df/Dw 0ZXHV548fXDi2e3nbi90QeGj5/by1es3V94+fPf0/cMPty66uekbgMRlJnz8tMDt85evT769/vr9 h5uroRFI2Pgn0LJWDyDxq+43kDQxhcSK2Z+/5haWVtY2/1pftP63sbWDRqK9gzaYNnB0cpZyMYDF LQAPls0FjcC7KQAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMC0wOS0wOFQxNDowMDowMCswMDowMPx6 74AAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjAtMDktMDhUMTQ6MDA6MDArMDA6MDCNJ1c8AAAAAElF TkSuQmCC"></image>
+            </svg></li>
+
+            <li class="header-navs booking-nav ">
+              <span class="booking-nav-container">
+                <span class="booking-details-container">
+                <img src="./assets/images/navbar-contact-min.jpg" alt="">
+                <span class="booking-details-text">
+                  <p class="booking-text">You can call us to book your hotel</p>
+                  <p class="booking-contact">+234 700 880 8800</p>
+                </span>
+              </span>
+              </span>
+              
+            </li>
+
+            <li class="header-navs flag-icon">
+              <a href=""><svg width="30" height="40" viewBox="0 0 62 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_d)">
+              <rect x="22" width="18" height="48" fill="white"/>
+              <rect x="4" width="18" height="48" fill="#003B00"/>
+              <rect x="4" width="18" height="48" fill="#003B00"/>
+              <rect x="40" width="18" height="48" fill="#003B00"/>
+              <rect x="40" width="18" height="48" fill="#003B00"/>
+              </g>
+              <defs>
+              <filter id="filter0_d" x="0" y="0" width="62" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+              <feOffset dy="4"/>
+              <feGaussianBlur stdDeviation="2"/>
+              <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+              </filter>
+              </defs>
+              </svg>
+              </a>
+              <p>₦</p>
+            </li>
+
+            <li class="header-navs account-icon">
+              <i class="fas fa-user-circle fa-2x"></i>
+              <p>Account</p>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </section>
   </header>
 

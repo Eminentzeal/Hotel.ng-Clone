@@ -25,9 +25,84 @@ body {
   max-width: 100%;
 }
 
-.section-headings h2 {
-  padding-top: 0% 4%;
+.header-navbar {
+  background: var(--blue);
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 4rem;
 }
+
+.header-logo {
+  padding-top: 1rem;
+}
+
+.header-ul {
+  display: flex;
+  list-style: none;
+}
+
+.header-navs {
+  padding: 1rem 1rem 0.5rem 1rem;
+  border-left: 1px solid #fff;
+}
+
+.flag-icon p {
+  display: flex;
+  color: #fff;
+  margin: 0.5rem 0rem 0rem 0.5rem;
+}
+
+.whatsapp-icon {
+  border-left: 0;
+}
+
+.header-logo img {
+  width: 6rem;
+}
+
+.booking-nav-container {
+  display: flex;
+  background: #084482;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.booking-details-container {
+  display: flex;
+  align-items: center;
+}
+
+.booking-details-container img {
+  width: 2.5rem;
+  border-radius: 22px;
+}
+
+.booking-text {
+  color: var(--blue);
+  font-size: 0.7em;
+  padding: 0px 10px;
+}
+
+.booking-contact {
+  color: #fff;
+}
+
+.account-icon {
+  display: flex;
+  align-items: center;
+}
+
+.account-icon i {
+  color:#fff;
+  width: 2.5rem;
+}
+
+.account-icon p {
+  color:#fff;
+}
+
+/* .section-headings h2 {
+  padding-top: 0% 4%;
+} */
 
 .heading {
   color: #fff;
@@ -51,27 +126,6 @@ body {
   font-size: 15px;
   font-weight: 400;
   padding-bottom: 100px;
-}
-
-nav {
-  background: var(--blue);
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 5px;
-}
-
-.first-section ul {
-  list-style: none;
-}
-
-.first-section-img {
-  max-width: 7em;
-}
-
-.first-section i {
-  color: green;
-  border-radius: 30px;
-  font-size: 3em;
 }
  
  .heading-form {
@@ -299,10 +353,10 @@ color: var(--black);
 }
 
 .column-first {
+  margin-left: 30rem;
   align-items: center;
   display: flex;
-  padding: 0;
-  width: 50%;
+  width: 30%;
 }
 
 .unlock-deal-column-first-text {
@@ -427,3 +481,14 @@ color: var(--black);
 .bb{
   border-top: 1px solid  #e2e6e9;
 }
+
+/* Media Queries Start */
+@media(max-width: 640px) {
+
+  .whatsapp-icon,
+  .booking-nav {
+    display: none;
+  }
+}
+
+/* Media Queries End */
