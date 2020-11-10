@@ -195,6 +195,23 @@ color: var(--black);
   color: var(--grey);
   font-weight: 300;
 }
+.box:hover {
+  background: var(--blue);
+  transition: .3s ease-out;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+
+.suggested_city h3:hover {
+  color: #fff;
+}
+
+.suggested_city p:hover {
+  color: #fff;
+}
+
 
 .top-deal-grid {
   display: grid;
