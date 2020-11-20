@@ -31,8 +31,9 @@ This project is about creating a webpage
   * https://www.linkedin.com/company/michub/
 
 ## Live Demo
-[Click  Here to see project live](https://raw.githack.com/Eminentzeal/Hotel.ng-Clone/main/index.html)
+[Click  Here to see project live](eminentezekiel-hotelng-clone.netlify.app)
 
 # 🤝 Contributions
 * This project is open to your comments and contributions, kindly reach the author through the above author's social media handles.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7fffd4df-cd36-4fcb-b2ae-624dca2dea47/deploy-status)](https://app.netlify.com/sites/eminentezekiel-hotelng-clone/deploys)
