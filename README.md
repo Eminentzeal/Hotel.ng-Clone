@@ -24,14 +24,14 @@ This project is about creating a webpage
 ## Acknowledgements
 * HomeFrontStartup
   * http://homefrontstartup.com.ng/
-  * Mentors International
+* Mentors International
   * https://mentorsint.com/
   * https://www.facebook.com/mentorshubyola/
   * https://twitter.com/hub_mic
   * https://www.linkedin.com/company/michub/
 
 ## Live Demo
-[Click  Here to see project live](eminentezekiel-hotelng-clone.netlify.app)
+[Click  Here to see project live] (https://eminentezekiel-hotelng-clone.netlify.app/)
 
 # 🤝 Contributions
 * This project is open to your comments and contributions, kindly reach the author through the above author's social media handles.
