@@ -1,7 +1,7 @@
 # Hotel.ng-Clone
 
 ## About The Project
-This project is about creating a webpage
+In this project, I replicated a Hotels.ng website with HTML and CSS. the websit contains detailed information about hotels in nigeria generally and how to book a space.
 
 ## Image
 ![landing page.](landing.jpg "This is the welcome interface")
@@ -32,6 +32,10 @@ This project is about creating a webpage
 
 ## Live Demo
 [Click  Here to see project live](https://eminentezekiel-hotelng-clone.netlify.app/)
+
+##
+Source Website
+[Hotels.ng](www.hotels.ng)
 
 # 🤝 Contributions
 * This project is open to your comments and contributions, kindly reach the author through the above author's social media handles.
